@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuPrincipal">
+
+    <fragment
+        android:id="@+id/menuPrincipal"
+        android:name="com.example.versaoum.fragment.PrincipalFragment"
+        android:label="Principal"
+        tools:layout="@layout/fragment_principal" />
+    <fragment
+        android:id="@+id/menuPerfil"
+        android:name="com.example.versaoum.fragment.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/menuChat"
+        android:name="com.example.versaoum.fragment.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/menuConfiguracoes"
+        android:name="com.example.versaoum.fragment.ConfiguracoesFragment"
+        android:label="Configurações"
+        tools:layout="@layout/fragment_configuracoes" />
+    <fragment
+        android:id="@+id/menuAjuda"
+        android:name="com.example.versaoum.fragment.AjudaFragment"
+        android:label="Ajuda"
+        tools:layout="@layout/fragment_ajuda" />
+    <fragment
+        android:id="@+id/menuSair"
+        android:name="com.example.versaoum.fragment.SairFragment"
+        android:label="Sair"
+        tools:layout="@layout/fragment_sair" />
+    <fragment
+        android:id="@+id/menuAnuncios"
+        android:name="com.example.versaoum.fragment.AnunciosFragment"
+        android:label="@string/anuncios"
+        tools:layout="@layout/fragment_anuncios" />
+</navigation>

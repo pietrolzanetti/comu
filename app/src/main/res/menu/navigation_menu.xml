@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuPrincipal"
+        android:icon="@drawable/ic_home"
+        android:title="@string/versaoum"/>
+
+    <item
+        android:id="@+id/menuAnuncios"
+        android:icon="@drawable/ic_add_circle"
+        android:title="@string/anuncios"/>
+
+    <item
+        android:id="@+id/menuChat"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/chat"
+        app:actionViewClass="android.widget.TextView"/>
+
+    <item
+        android:id="@+id/menuPerfil"
+        android:icon="@drawable/ic_person"
+        android:title="@string/perfil" />
+
+
+    <item
+        android:id="@+id/menuConfiguracoes"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/configura_es"/>
+
+    <item
+        android:id="@+id/menuAjuda"
+        android:icon="@drawable/ic_help"
+        android:title="@string/ajuda"/>
+
+    <item
+        android:id="@+id/menuSair"
+        android:icon="@drawable/ic_close"
+        android:title="@string/sair"/>
+
+
+
+</menu>

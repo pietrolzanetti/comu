@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "173010758492",
+    "firebase_url": "https://versaoum.firebaseio.com",
+    "project_id": "versaoum",
+    "storage_bucket": "versaoum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173010758492:android:44fb56e7907a1f70186f99",
+        "android_client_info": {
+          "package_name": "com.example.versaoum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173010758492-3cutojff05nt0gv6gp0lgqs2qrlkeijh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.versaoum",
+            "certificate_hash": "45474a6770f0526acb6bce44d5d484c69346df15"
+          }
+        },
+        {
+          "client_id": "173010758492-5500020pdchgrq8j9ovt5626mctc8keh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuXk6J5kd9qtfs83kEF0rx2iZWSiC3x88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173010758492-5500020pdchgrq8j9ovt5626mctc8keh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
